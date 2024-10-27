@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:07:16.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Form1.cs [Projeto]",
+              "RelativeToolTip": "Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T10:51:27.94Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
