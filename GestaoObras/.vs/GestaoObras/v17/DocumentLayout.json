@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Person.cs",
               "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Person.cs",
               "RelativeToolTip": "Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T11:07:16.207Z",
               "EditorCaption": ""
@@ -46,8 +46,7 @@
               "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:51:27.94Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-10-27T10:51:27.94Z"
             }
           ]
         }
