@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestaoObras
+namespace GestaoObras.SC
 {
     public class Person
     {
@@ -20,13 +20,13 @@ namespace GestaoObras
         {
             get
             {
-                return this.Nome;
+                return Nome;
             }
             set
             {
                 if (value.Length > 0)
                 {
-                    this.Nome = value;
+                    Nome = value;
                 }
             }
         }
@@ -34,11 +34,11 @@ namespace GestaoObras
         {
             get
             {
-                return this.Email;
+                return Email;
             }
             set
             {
-                this.Email = value;
+                Email = value;
             }
         }
 
@@ -48,7 +48,7 @@ namespace GestaoObras
 
         public Person(string Name, string Email)
         {
-            this.Nome = Nome;
+            Nome = Nome;
             this.Email = Email;
         }
         #endregion
