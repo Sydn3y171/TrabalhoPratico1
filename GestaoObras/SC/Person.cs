@@ -9,7 +9,7 @@ namespace GestaoObras.SC
 {
     public class Person
     {
-        #region Privete Properties
+        #region Private Properties
         private int nif { get; set; }
         private string endereco { get; set; }
         private int telefone { get; set; }
