@@ -9,7 +9,15 @@ namespace GestaoObras.SC
     public class Obra
     {
 
+        #region Privete Properties
 
+        private int idObra { get; set; }
+
+        private double orcamento { get; set; }
+
+
+
+        #endregion
 
 
 
