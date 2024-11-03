@@ -32,8 +32,19 @@ namespace GestaoObras.SC
 
         public DateOnly DataInicio { get; set; }
 
-        public string Estado { 
-        get { return estado; }
+        #endregion
+
+        #region Function 
+        public Obra(int idObra, string nomeObra, double orcamentoInicial)
+        {
+            IdObra = idObra;
+            Nome = nomeObra;
+            orcamento = orcamentoInicial;
+        }
+
+        public string Estado
+        {
+            get { return estado; }
             set
             {
                 if (value == "em curso" || value == "concluído" || value == "em planeamento")
@@ -47,19 +58,31 @@ namespace GestaoObras.SC
             }
         }
 
-        #endregion
-
-        #region Function 
-        public Obra(int idObra, string nomeObra, double orcamentoInicial)
+        public DateOnly DataFim
         {
-            IdObra = idObra;
-            Nome = nomeObra;
-            orcamento = orcamentoInicial;
+            get { return dataFim; }
+            set
+            {
+                if (value >= DataInicio)
+                {
+                    dataFim = value;
+                }
+                else
+                {
+                    throw new ArgumentException("Data final deve ser posterior à data de inicio da obra!");
+                }
+            }
         }
+
+        public double Orcamento
+        {
+            get { return orcamento; }
+            private set { orcamento = value; }
+         }
     }
 
     #endregion
 
 
 }
-}
+
