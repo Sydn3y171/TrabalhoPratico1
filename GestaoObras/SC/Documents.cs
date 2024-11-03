@@ -22,8 +22,9 @@ namespace GestaoObras.SC
         public TipoDocumento TipodoDocumento { get; set; }
         public DateOnly DataDocumento { get; private set; }
         public Person Vendedor { get; set; }
+        #endregion
 
-
+        #region Constructor
         public Documents(int IdDocumento, string TipoDocumento, DateOnly DataDocumento, Person Vendedor)
         {
             this.IdDocumento = IdDocumento;
