@@ -28,7 +28,7 @@ namespace GestaoObras.SC
         public Documents(int IdDocumento, string TipoDocumento, DateOnly DataDocumento, Person Vendedor)
         {
             this.IdDocumento = IdDocumento;
-            TipodoDocumento = TipodoDocumento;
+            this.TipodoDocumento = TipodoDocumento;
             this.DataDocumento = DataDocumento;
             this.Vendedor = Vendedor;
         }
