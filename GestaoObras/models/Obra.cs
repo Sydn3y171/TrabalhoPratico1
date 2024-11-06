@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestaoObras.SC
+namespace GestaoObras.models
 {
-    public class Obra
+    public abstract class Obra
     {
 
         #region Private Properties
@@ -20,15 +20,15 @@ namespace GestaoObras.SC
 
         #endregion
 
-        #region Public Properties
-
-        public int IdObra { get; private set; } //private set, the ID gets dif only one time 
-
         public string Nome { get; set; }
 
         public string Endereço { get; set; }
 
         public string Descricao { get; set; }
+
+        #region Public Properties
+
+        public int IdObra { get; private set; } //private set, the ID gets dif only one time 
 
         public DateOnly DataInicio { get; set; }
 
@@ -79,9 +79,13 @@ namespace GestaoObras.SC
             get { return orcamento; }
             private set { orcamento = value; }
          }
+        #endregion
+
+        #region
+        public abstract double Calculate();
+        #endregion
     }
 
-    #endregion
 
 
 }

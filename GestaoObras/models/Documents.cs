@@ -3,23 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GestaoObras.enums;
 
-namespace GestaoObras.SC
+namespace GestaoObras.models
 {
     public class Documents
     {
 
-        public enum TipoDocumento
-        {
-            Orcamento,
-            Compra,
-            DocumentosDeObra,
-
-        }
 
         #region Public Properties
         public int IdDocumento { get; private set; }
-        public TipoDocumento TipodoDocumento { get; set; }
+        public DocumentType TipodoDocumento { get; set; }
         public DateOnly DataDocumento { get; private set; }
         public Person Vendedor { get; set; }
         #endregion

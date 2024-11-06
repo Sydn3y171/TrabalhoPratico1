@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestaoObras.SC
+namespace GestaoObras.models
 {
     public class MaodeObra
     {
