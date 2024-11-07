@@ -82,7 +82,7 @@ namespace GestaoObras.models
         #endregion
 
         #region
-        public abstract double Calculate();
+        public abstract double Calculate(); // Calcula a taxa de uma obra publica
         #endregion
     }
 
