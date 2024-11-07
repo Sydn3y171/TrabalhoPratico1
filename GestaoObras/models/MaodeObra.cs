@@ -31,7 +31,7 @@ namespace GestaoObras.models
 
         #region Constructor
 
-        public MaoDeObra(int idMaoObra, string tipoMaoObra, double custoHora, DateOnly dataInicio)
+        public MaodeObra(int idMaoObra, string tipoMaoObra, double custoHora, DateOnly dataInicio)
         {
             this.IdMaoObra = idMaoObra;
             this.TipoMaoObra = tipoMaoObra;
