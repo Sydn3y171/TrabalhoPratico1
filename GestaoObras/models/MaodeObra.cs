@@ -25,6 +25,8 @@ namespace GestaoObras.models
 
         public DateOnly DataFim { get; set; }
 
+        public decimal HorasTrabalhadas { get; set; }
+
         #endregion
 
 
@@ -37,6 +39,7 @@ namespace GestaoObras.models
             this.TipoMaoObra = tipoMaoObra;
             this.CustoHora = custoHora;
             this.DataInicio = dataInicio;
+
         }
 
         public void UpdateCustoHora(double novoCusto)
@@ -62,6 +65,12 @@ namespace GestaoObras.models
                 throw new ArgumentException("A data de início não pode ser futura!");
             }
         }
+
+        public virtual decimal CalcularCustoTotal()
+        {
+            return CustoHora * HorasTrabalhadas;
+        }
+        // Método abstrato que será implementado nas subclasses 
 
 
         #endregion
