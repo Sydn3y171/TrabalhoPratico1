@@ -8,7 +8,16 @@ namespace GestaoObras.models.descendants
 {
     public class ObraPriv : Obra
     {
+        public ObraPriv(int idObra, string nomeObra, double orcamentos) 
+            :base(idObra, nomeObra, orcamentos)
+        {
 
+        }
+
+        public override double Calculate() // não é necessário implementar
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }
