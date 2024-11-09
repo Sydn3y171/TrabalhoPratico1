@@ -8,9 +8,11 @@ namespace GestaoObras.enums
 {
     public enum MaterialType
     {
-
-
-
+        Ferramentas,
+        Equipamentos,
+        MaterialEletrecidade,
+        MaterialConstrucao,
+        MaterialPichelaria
 
     }
 }
