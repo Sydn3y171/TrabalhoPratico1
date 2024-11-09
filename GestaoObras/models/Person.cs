@@ -9,8 +9,10 @@ namespace GestaoObras.models
 {
     public class Person
     {
+        
         #region Private Properties
         private int nif { get; set; }
+        private int id { get; set; }
         private string endereco { get; set; }
         private int telefone { get; set; }
         #endregion
@@ -46,11 +48,38 @@ namespace GestaoObras.models
 
         #region Construtor
 
-        public Person(string Name, string Email)
+        public Person(string Nome, string Email)
         {
-            Nome = Nome;
+            this.Nome = Nome;
             this.Email = Email;
         }
+
+        public Person(int id, string nome)
+        {
+            this.id = id;
+            Nome = nome;
+        }
+        #endregion
+
+        #region Method
+
+        public abstract string ObterIdentificacao();
+
+        // Método privado para validar o NIF 
+        private bool ValidarNIF(string nif)
+        {
+            // Validar o NIF 
+            return nif.Length == 9 && long.TryParse(nif, out _);
+        }
+
+        // Método privado para validar o Telefone
+        private bool ValidarTelefone(string telefone)
+        {
+            // Validar o telefone
+            return telefone.Length >= 9 && telefone.Length <= 15;
+        }
+
+
         #endregion
     }
 }

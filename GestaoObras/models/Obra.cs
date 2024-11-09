@@ -35,7 +35,7 @@ namespace GestaoObras.models
         #endregion
 
         #region Function 
-        public Obra(int idObra, string nomeObra, double orcamentoInicial)
+        public Obra(int idObra, string nomeObra, string descricao, double orcamentoInicial)
         {
             IdObra = idObra;
             Nome = nomeObra;
@@ -81,7 +81,7 @@ namespace GestaoObras.models
          }
         #endregion
 
-        #region
+        #region CalcularTaxaObra
         public abstract double Calculate(); // Calcula a taxa de uma obra publica
         #endregion
     }

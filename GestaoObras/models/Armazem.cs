@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GestaoObras.enums;
 
 namespace GestaoObras.models
 {
@@ -10,40 +11,32 @@ namespace GestaoObras.models
     {
         #region Properties
         public int IdArmazem { get; private set; }
+        public string NomeArmazem { get; set; }
         public string Localizacao { get; set; }
         public int Capacidade { get; private set; }
 
-        public List<Item> Inventario { get; private set; }
+        public ArmazemType ArmazemType { get; set; };
+        
         #endregion
 
 
         #region constructor
-        public Armazem(int IdArmazem, string Localizao, int Capacidade) 
+        public Armazem(int IdArmazem, string Localizao, int Capacidade, string NomeArmazem, ArmazemType ArmazemType) 
         { 
             this.IdArmazem = IdArmazem;
+            this.NomeArmazem = NomeArmazem;
             this.Localizacao = Localizao;
             this.Capacidade = Capacidade;
-            this.Inventario = new List<Item>();
+            this.ArmazemType = ArmazemType;
+            
 
         }
         #endregion
 
         #region Public methods
-        public void AdicionarItem(Item item)
+        public void MostraDetalhes()
         {
-            if (Inventario.Count < Capacidade)
-            {
-                Inventario.Add(item);
-            }
-            else
-            {
-                throw new InvalidOperationException("Capacidade do armazém foi atingida.");
-            }
-        }
-
-        public void RemoverItem(Item item)
-        {
-            Inventario.Remove(item);
+            Console.WriteLine($"ID: {IdArmazem},Armazém: {NomeArmazem}, Localização: {Localizacao}, Tipo: {ArmazemType}");
         }
         #endregion
     }
