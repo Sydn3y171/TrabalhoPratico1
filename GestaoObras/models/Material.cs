@@ -9,14 +9,35 @@ namespace GestaoObras.models
 {
     public class Materiais : Armazem
     {
+
+        /// <summary>
+        /// Added public and private properties to the subclass Materiais
+        /// </summary>
         #region Properties
         public int IdMaterial { get; private set; }
         public string NomeMaterial { get; set; }
         public MaterialType TipoMaterial { get; set; }
         public double Preco { get; private set; }
         #endregion
+
+
+
+        /// <summary>
+        /// Construtor
+        /// </summary>
+        /// <param name="IdMaterial"></param>
+        /// <param name="NomeMaterial"></param>
+        /// <param name="TipoMaterial"></param>
+        /// <param name="Preco"></param>
+        /// <param name="IdArmazem"></param>
+        /// <param name="Localizacao"></param>
+        /// <param name="Capacidade"></param>
+        /// <param name="NomeArmazem"></param>
+        /// <param name="tipoArmazem"></param>
         #region constructor
-        public Materiais(int IdMaterial, string NomeMaterial, MaterialType TipoMaterial, double Preco)
+        public Materiais(int IdMaterial, string NomeMaterial, MaterialType TipoMaterial, double Preco,
+                  int IdArmazem, string Localizacao, int Capacidade, string NomeArmazem, ArmazemType tipoArmazem)
+     : base(IdArmazem, Localizacao, Capacidade, NomeArmazem, tipoArmazem)  // Chamada ao construtor da base
         {
             this.IdMaterial = IdMaterial;
             this.NomeMaterial = NomeMaterial;
@@ -25,7 +46,9 @@ namespace GestaoObras.models
         }
 
         #endregion
-
+        /// <summary>
+        /// Methods
+        /// </summary>
         #region Public methods
 
         public void MostraDetalhes()

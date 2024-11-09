@@ -8,8 +8,19 @@ namespace GestaoObras.models.descendants
 {
     public class MaoObraExterna : MaodeObra
     {
-        public override string TipoMaoObra => "Externa";
-        public string EmpresaContratada { get; set; }
+        public string Empresa { get; set; }
+
+        // Construtor que chama o construtor da classe base com os parâmetros necessários
+        public MaoObraExterna(int idMaoObra, string nome, double custoHora, DateOnly dataInicio, string empresa)
+            : base(idMaoObra, nome, custoHora, dataInicio) // Passando os parâmetros para a classe base
+        {
+            this.Empresa = empresa;
+        }
+
+        public override string Descricao()
+        {
+            return $"Mão de Obra Externa fornecida pela empresa: {Empresa}";
+        }
 
     }
 }

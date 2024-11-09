@@ -9,7 +9,9 @@ namespace GestaoObras.models
 {
     public class Person
     {
-        
+        /// <summary>
+        /// Added public and private properties
+        /// </summary>
         #region Private Properties
         private int nif { get; set; }
         private int id { get; set; }
@@ -46,6 +48,13 @@ namespace GestaoObras.models
 
         #endregion
 
+
+
+        /// <summary>
+        /// Construtor with params
+        /// </summary>
+        /// <param name="Nome"></param>
+        /// <param name="Email"></param>
         #region Construtor
 
         public Person(string Nome, string Email)
@@ -61,6 +70,11 @@ namespace GestaoObras.models
         }
         #endregion
 
+
+        /// <summary>
+        /// Methods ObterIdentificacao and ValidarTelefone
+        /// </summary>
+        /// <returns></returns>
         #region Method
 
         public abstract string ObterIdentificacao();

@@ -10,6 +10,10 @@ namespace GestaoObras.models
     public class Estaleiro
     {
 
+        /// <summary>
+        /// Public and Private properties
+        /// </summary>
+
         #region Private Properties
 
         private int idVeiculo { get; set; }
@@ -35,6 +39,14 @@ namespace GestaoObras.models
         #endregion
 
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="IdVeiculo"></param>
+        /// <param name="Tipoveiculos"></param>
+        /// <param name="Modelo"></param>
+        /// <param name="HorasDeUso"></param>
+        /// <param name="EmUso"></param>
         #region Constructor
 
         public Estaleiro(int IdVeiculo, VeiculosType Tipoveiculos, string Modelo, double HorasDeUso, bool EmUso)

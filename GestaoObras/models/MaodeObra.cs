@@ -8,7 +8,9 @@ namespace GestaoObras.models
 {
     public class MaodeObra
     {
-
+        /// <summary>
+        /// Properties
+        /// </summary>
         #region Properties
 
         public int IdMaoObra {  get; private set; }
@@ -25,11 +27,16 @@ namespace GestaoObras.models
 
         public DateOnly DataFim { get; set; }
 
-        public decimal HorasTrabalhadas { get; set; }
 
         #endregion
 
-
+        /// <summary>
+        /// Added Construtor
+        /// </summary>
+        /// <param name="idMaoObra"></param>
+        /// <param name="tipoMaoObra"></param>
+        /// <param name="custoHora"></param>
+        /// <param name="dataInicio"></param>
 
         #region Constructor
 
@@ -41,7 +48,15 @@ namespace GestaoObras.models
             this.DataInicio = dataInicio;
 
         }
+        #endregion
 
+
+        /// <summary>
+        /// Methods
+        /// </summary>
+        /// <param name="novoCusto"></param>
+        /// <exception cref="ArgumentException"></exception>
+        #region Methods
         public void UpdateCustoHora(double novoCusto)
         {
             if (novoCusto >= 0)
@@ -66,12 +81,15 @@ namespace GestaoObras.models
             }
         }
 
-        public virtual decimal CalcularCustoTotal()
+        public virtual double CalcularCustoTotal()
         {
             return CustoHora * HorasTrabalhadas;
         }
         // Método abstrato que será implementado nas subclasses 
-
+        public virtual string Descricao()
+        {
+            return $"Mão de Obra: {IdMaoObra}, Custo por Hora: {CustoHora}";
+        }
 
         #endregion
 

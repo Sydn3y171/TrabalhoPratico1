@@ -9,6 +9,10 @@ namespace GestaoObras.models
     public abstract class Obra
     {
 
+
+        /// <summary>
+        /// Added public and private properties
+        /// </summary>
         #region Private Properties
 
         private double orcamento { get; set; }
@@ -34,12 +38,20 @@ namespace GestaoObras.models
 
         #endregion
 
-        #region Function 
+        /// <summary>
+        /// created construtor
+        /// </summary>
+        /// <param name="idObra"></param>
+        /// <param name="nomeObra"></param>
+        /// <param name="descricao"></param>
+        /// <param name="orcamentoInicial"></param>
+
+        #region Construtor 
         public Obra(int idObra, string nomeObra, string descricao, double orcamentoInicial)
         {
-            IdObra = idObra;
-            Nome = nomeObra;
-            orcamento = orcamentoInicial;
+            this.IdObra = idObra;
+            this.Nome = nomeObra;
+            this.orcamento = orcamentoInicial;
         }
 
         public string Estado
@@ -81,8 +93,14 @@ namespace GestaoObras.models
          }
         #endregion
 
+
+        /// <summary>
+        /// Method to Calculate taxa obra publica
+        /// </summary>
+        /// <returns></returns>
+
         #region CalcularTaxaObra
-        public abstract double Calculate(); // Calcula a taxa de uma obra publica
+        public abstract double Calculate();
         #endregion
     }
 

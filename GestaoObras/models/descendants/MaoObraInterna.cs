@@ -8,12 +8,17 @@ namespace GestaoObras.models.descendants
 {
     public class MaoObraInterna : MaodeObra
     {
-        public override string Tipo => "Interna";
         public string Departamento { get; set; }
 
-        public override string ObterDetalhes()
+        public MaoObraInterna(int idMaoObra, string nome, double custoHora, DateOnly dataInicio, string departamento)
+            : base(idMaoObra, nome, custoHora, dataInicio)  // Passa os parâmetros necessários para a classe base
         {
-            return $"Mão de Obra Interna: {Nome}, Departamento: {Departamento}, Custo Total: {CalcularCustoTotal():C}";
+            Departamento = departamento;
+        }
+
+        public override string Descricao()
+        {
+            return $"Mão de Obra Interna: {IdMaoObra}, Departamento: {Departamento}, Custo por Hora: {CustoHora}";
         }
 
     }

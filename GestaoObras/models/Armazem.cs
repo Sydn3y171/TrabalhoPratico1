@@ -9,6 +9,10 @@ namespace GestaoObras.models
 {
     public class Armazem
     {
+
+        /// <summary>
+        /// Public Properties
+        /// </summary>
         #region Properties
         public int IdArmazem { get; private set; }
         public string NomeArmazem { get; set; }
@@ -19,6 +23,15 @@ namespace GestaoObras.models
         
         #endregion
 
+
+        /// <summary>
+        /// Class Contructor
+        /// </summary>
+        /// <param name="IdArmazem"></param>
+        /// <param name="Localizao"></param>
+        /// <param name="Capacidade"></param>
+        /// <param name="NomeArmazem"></param>
+        /// <param name="ArmazemType"></param>
 
         #region constructor
         public Armazem(int IdArmazem, string Localizao, int Capacidade, string NomeArmazem, ArmazemType ArmazemType) 
@@ -32,6 +45,9 @@ namespace GestaoObras.models
 
         }
         #endregion
+        /// <summary>
+        /// Class Methods
+        /// </summary>
 
         #region Public methods
         public void MostraDetalhes()

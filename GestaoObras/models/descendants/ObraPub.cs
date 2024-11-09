@@ -15,7 +15,7 @@ namespace GestaoObras.models.descendants
         public ObraPub(int idObra, string nomeObra, string descricao, DateOnly dataInicio,
                        DateOnly dataPrevistaTermino, double orcamentoInicial, string endereco,
                        string estado, string orgaoResponsavel)
-            : base(idObra, nomeObra, descricao,orcamentoInicial, dataInicio, dataPrevistaTermino, endereco, estado)
+            : base(idObra, nomeObra, descricao,orcamentoInicial, dataInicio, dataPrevistaTermino, endereco, estado, orgaoResponsavel)
         {
             this.EntidadeResponsavel = EntidadeResponsavel;
         }

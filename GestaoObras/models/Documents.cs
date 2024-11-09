@@ -9,7 +9,9 @@ namespace GestaoObras.models
 {
     public class Documents
     {
-
+        /// <summary>
+        /// Public Properties
+        /// </summary>
 
         #region Public Properties
         public int IdDocumento { get; private set; }
@@ -17,6 +19,16 @@ namespace GestaoObras.models
         public DateOnly DataDocumento { get; private set; }
         public Person Vendedor { get; set; }
         #endregion
+
+
+        /// <summary>
+        /// Class Contrutor
+        /// </summary>
+        /// <param name="IdDocumento"></param>
+        /// <param name="TipoDocumento"></param>
+        /// <param name="DataDocumento"></param>
+        /// <param name="Vendedor"></param>
+        /// 
 
         #region Constructor
         public Documents(int IdDocumento, string TipoDocumento, DateOnly DataDocumento, Person Vendedor)
