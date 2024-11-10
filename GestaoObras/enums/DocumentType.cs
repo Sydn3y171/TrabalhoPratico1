@@ -8,8 +8,7 @@ namespace GestaoObras.enums
 {
     public enum DocumentType
     {
-            Orcamento,
-            Compra,
+            GuiaTransporte,
             DocumentosDeObra,
    
     }

@@ -10,6 +10,7 @@ namespace GestaoObras.models.descendants
 {
     public class Cliente : Person
     {
+
         public string Email { get; set; }
         private DateTime DataNascimento { get; set; }
         public ClientType TipoCliente { get; set; }
@@ -20,28 +21,25 @@ namespace GestaoObras.models.descendants
     #region Constructor
 
 
-    public Cliente(int id, string nome, string email, DateTime dataNascimento, ClientType tipoCliente)
-            : base(id, nome)
+    public Cliente(int ID, string Nome, string NIF, string morada, string codigoPostal, string Email, DateTime dataNascimento, ClientType TipoCliente)
+           : base(ID, Nome, NIF, morada, codigoPostal)
     {
-        email = email;
+        Email = Email;
         dataNascimento = dataNascimento;
-        ClientType = tipoCliente;
-        Ativo = true;
-
-
+        TipoCliente = TipoCliente;
     }
 
     #endregion
 
     #region Method
 
-    public override string ObterIdentificacao()
+    public override string ObterIdentificacao(string Nome, int NIF,string Email,ClientType TipoCliente,bool Ativo)
     {
         return $"Cliente: {Nome}, NIF: {NIF}, Email: {Email}, Tipo: {TipoCliente}, Ativo: {Ativo}";
     }
-    public void MostrarDetalhes()
+    public void MostrarDetalhesCliente(string Nome, int ID, int NIF,string Email, DateTime DataNascimento, ClientType TipoCliente,bool Ativo,DateTime DataRegisto)
     {
-        Console.WriteLine($"Cliente: {Nome}, ID: {Id}, NIF: {NIF}, Email: {Email}, Data Nascimento: {DataNascimento.ToShortDateString()}, Tipo: {TipoCliente}, Ativo: {Ativo}, Data de Registo: {DataRegisto.ToShortDateString()}");
+        Console.WriteLine($"Cliente: {Nome}, ID: {ID}, NIF: {NIF}, Email: {Email}, Data Nascimento: {DataNascimento.ToShortDateString()}, Tipo: {TipoCliente}, Ativo: {Ativo}, Data de Registo: {DataRegisto.ToShortDateString()}");
     }
 
 

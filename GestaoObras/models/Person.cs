@@ -46,27 +46,48 @@ namespace GestaoObras.models
             }
         }
 
+        public int NIF
+        {
+            get 
+            {
+                return NIF;
+            }
+            set
+            {
+                NIF = value;
+            }
+
+        }
+
+        public int ID
+        {
+            get
+            {
+                return ID;
+            }
+            set
+            {
+                ID = value;
+            }
+        }
+
         #endregion
 
 
 
         /// <summary>
-        /// Construtor with params
+        /// Construtor com parametros
         /// </summary>
         /// <param name="Nome"></param>
         /// <param name="Email"></param>
         #region Construtor
 
-        public Person(string Nome, string Email)
+        public Person(string Nome, string Email, int ID, int NIF)
         {
             this.Nome = Nome;
             this.Email = Email;
-        }
-
-        public Person(int id, string nome)
-        {
-            this.id = id;
-            Nome = nome;
+            this.id = ID;
+            this.nif = NIF;
         }
         #endregion
 
@@ -78,6 +99,7 @@ namespace GestaoObras.models
         #region Method
 
         public abstract string ObterIdentificacao();
+        public void MostrarDetalhesCliente();
 
         // Método privado para validar o NIF 
         private bool ValidarNIF(string nif)

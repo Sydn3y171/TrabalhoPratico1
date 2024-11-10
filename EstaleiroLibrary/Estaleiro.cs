@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using GestaoObras.enums;
+﻿
 
-namespace GestaoObras.models
+
+namespace EstaleiroLibrary
 {
     public class Estaleiro
     {
-
         /// <summary>
         /// Public and Private properties
         /// </summary>
@@ -52,14 +47,11 @@ namespace GestaoObras.models
         public Estaleiro(int IdVeiculo, VeiculosType Tipoveiculos, string Modelo, double HorasDeUso, bool EmUso)
         {
             this.IdVeiculo = IdVeiculo;
-            this.TipoVeiculo= Tipoveiculos;
+            this.TipoVeiculo = Tipoveiculos;
             this.Modelo = Modelo;
             this.HorasDeUso = HorasDeUso;
             this.EmUso = EmUso;
         }
-
-
-
         #endregion
     }
 }

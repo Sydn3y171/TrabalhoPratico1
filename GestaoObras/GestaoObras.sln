@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoObras", "GestaoObras.csproj", "{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoObras", "GestaoObras.csproj", "{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstaleiroLibrary", "..\EstaleiroLibrary\EstaleiroLibrary.csproj", "{7C98BE8F-B53E-4DE0-8B54-30926F104719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{4F245410-0CA2-41B6-8301-C60610A936DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C98BE8F-B53E-4DE0-8B54-30926F104719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C98BE8F-B53E-4DE0-8B54-30926F104719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C98BE8F-B53E-4DE0-8B54-30926F104719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C98BE8F-B53E-4DE0-8B54-30926F104719}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C98BE8F-B53E-4DE0-8B54-30926F104719} = {4F245410-0CA2-41B6-8301-C60610A936DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90C49701-19C8-4013-85B8-FB54FEE225DA}

@@ -8,6 +8,9 @@ namespace GestaoObras.models.descendants
 {
     public class Funcionario : Person
     {
+        /// <summary>
+        /// Properties publicas e privadas da subclasse Funcionario
+        /// </summary>
 
         #region Properties
         private decimal Salario { get; set; }
@@ -16,42 +19,57 @@ namespace GestaoObras.models.descendants
 
         #endregion
 
+        /// <summary>
+        /// Construtor da subclasse funcionario
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <param name="Nome"></param>
+        /// <param name="salario"></param>
+        /// <param name="cargo"></param>
+        /// <param name="DataContratacao"></param>
+        /// <param name="Email"></param>
+
         #region Construtor
-        public Funcionario(int id, string nome, decimal salario, string cargo, DateTime dataContratacao)
-            : base(id, nome) // Passa o telefone para a superclasse
+        public Funcionario(int ID, string Nome, decimal salario, string cargo, DateTime DataContratacao, string Email)
+            : base(Nome, Email, ID)
         {
             Salario = salario;
             Cargo = cargo;
-            DataContratacao = dataContratacao;
+            DataContratacao = DataContratacao;
         }
         #endregion
 
-        // Método para obter informações completas do funcionário
+        /// <summary>
+        /// Public Method to ObterIndentificacao do funcionario
+        /// CalcularTempoDeServiço de um funcionario
+        /// Mostrar os detalhes do funcionario
+        /// Perceber qual é o seu salario bem como defenilo
+        /// </summary>
+        /// <returns></returns>
         public override string ObterIdentificacao()
         {
-            return $"Funcionário: {Nome}, Cargo: {Cargo}, NIF: {nif}, Salário: {Salario:C}";
+            return $"Funcionário: {Nome}, Cargo: {Cargo}, NIF: {NIF}, Salário: {Salario:C}";
         }
 
-        // Método para calcular o tempo de serviço do funcionário
-        public int CalcularTempoDeServiço()
+       
+        public int CalcularTempoServico()
         {
             return (DateTime.Now.Year - DataContratacao.Year);
         }
 
-        // Método para mostrar informacoes do funcionário
+        
         public void MostrarDetalhes()
         {
-            Console.WriteLine($"Funcionário: {Nome}, ID: {Id}, Salário: {Salario:C}, Cargo: {Cargo}, Data de Contratação: {DataContratacao.ToShortDateString()}");
+            Console.WriteLine($"Funcionário: {Nome}, ID: {ID}, Salário: {Salario:C}, Cargo: {Cargo}, Data de Contratação: {DataContratacao.ToShortDateString()}");
         }
 
-        // Método para obter o salário
+        
         public decimal ObterSalario()
         {
             return Salario;
         }
 
-        // Método público para definir o salário
-        public void DefinirSalario(decimal novoSalario)
+        public void DefSalario(decimal novoSalario)
         {
             if (novoSalario < 0)
             {
