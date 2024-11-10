@@ -11,7 +11,7 @@ namespace GestaoObras.models.descendants
     public class Cliente : Person
     {
 
-        public string Email { get; set; }
+        
         private DateTime DataNascimento { get; set; }
         public ClientType TipoCliente { get; set; }
         public DateTime DataRegisto { get; private set; }
@@ -22,9 +22,8 @@ namespace GestaoObras.models.descendants
 
 
     public Cliente(int ID, string Nome, string NIF, string morada, string codigoPostal, string Email, DateTime dataNascimento, ClientType TipoCliente)
-           : base(ID, Nome, NIF, morada, codigoPostal)
+           : base(Nome, Email, ID, NIF)
     {
-        Email = Email;
         dataNascimento = dataNascimento;
         TipoCliente = TipoCliente;
     }
