@@ -8,7 +8,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace GestaoObras.models.descendants
 {
-    public class Cliente : Person
+    public abstract class Cliente : Person
     {
 
         
@@ -36,7 +36,7 @@ namespace GestaoObras.models.descendants
     {
         return $"Cliente: {Nome}, NIF: {NIF}, Email: {Email}, Tipo: {TipoCliente}, Ativo: {Ativo}";
     }
-    public void MostrarDetalhesCliente(string Nome, int ID, int NIF,string Email, DateTime DataNascimento, ClientType TipoCliente,bool Ativo,DateTime DataRegisto)
+    public abstract void MostrarDetalhesCliente(string Nome, int ID, int NIF,string Email, DateTime DataNascimento, ClientType TipoCliente,bool Ativo,DateTime DataRegisto)
     {
         Console.WriteLine($"Cliente: {Nome}, ID: {ID}, NIF: {NIF}, Email: {Email}, Data Nascimento: {DataNascimento.ToShortDateString()}, Tipo: {TipoCliente}, Ativo: {Ativo}, Data de Registo: {DataRegisto.ToShortDateString()}");
     }

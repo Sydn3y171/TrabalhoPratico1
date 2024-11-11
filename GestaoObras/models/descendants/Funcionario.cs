@@ -31,7 +31,7 @@ namespace GestaoObras.models.descendants
 
         #region Construtor
         public Funcionario(int ID, string Nome, decimal salario, string cargo, DateTime DataContratacao, string Email)
-            : base(Nome, Email, ID)
+            : base(Nome, Email, ID, NIF)
         {
             Salario = salario;
             Cargo = cargo;
