@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestaoObras.models.descendants
 {
-    public class Funcionario : Person
+    public abstract class Funcionario : Person
     {
         /// <summary>
         /// Properties publicas e privadas da subclasse Funcionario

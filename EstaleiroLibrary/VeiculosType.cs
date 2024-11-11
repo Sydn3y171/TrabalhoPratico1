@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace GestaoObras.enums
 {
     public enum VeiculosType
@@ -11,6 +12,7 @@ namespace GestaoObras.enums
         Camião,
         Carrinha,
         Carro,
+        Reboque,
 
     }
 }

@@ -1,5 +1,6 @@
-﻿
+﻿using EstaleiroLibrary;
 
+using GestaoObras.enums;
 
 namespace EstaleiroLibrary
 {
@@ -24,7 +25,15 @@ namespace EstaleiroLibrary
             set { idVeiculo = value; }
         }
 
-        public VeiculosType TipoVeiculo { get; set; }
+        //public VeiculosType TipoVeiculo { get; set; }
+
+
+        public List<VeiculosType> TipoVeiculo
+        {
+            get => TipoVeiculo;
+            set => TipoVeiculo = value;   
+        
+        }
 
         public string Modelo { get; set; }
 
@@ -44,10 +53,10 @@ namespace EstaleiroLibrary
         /// <param name="EmUso"></param>
         #region Constructor
 
-        public Estaleiro(int IdVeiculo, VeiculosType Tipoveiculos, string Modelo, double HorasDeUso, bool EmUso)
+        public Estaleiro(int IdVeiculo, List<VeiculosType> TipoVeiculo, string Modelo, double HorasDeUso, bool EmUso)
         {
             this.IdVeiculo = IdVeiculo;
-            this.TipoVeiculo = Tipoveiculos;
+            this.TipoVeiculo = TipoVeiculo;
             this.Modelo = Modelo;
             this.HorasDeUso = HorasDeUso;
             this.EmUso = EmUso;

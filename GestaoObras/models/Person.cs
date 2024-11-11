@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GestaoObras.models
 {
-    public class Person
+    public abstract class Person
     {
         /// <summary>
         /// Added public and private properties
@@ -99,7 +99,7 @@ namespace GestaoObras.models
         #region Method
 
         public abstract string ObterIdentificacao();
-        public void MostrarDetalhesCliente();
+        public abstract void MostrarDetalhesCliente();
 
         // Método privado para validar o NIF 
         private bool ValidarNIF(string nif)

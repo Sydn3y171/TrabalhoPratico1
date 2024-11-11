@@ -13,14 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\models\\descendants\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:models\\descendants\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\models\\descendants\\orcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:models\\descendants\\orcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\models\\descendants\\materiaisorcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:models\\descendants\\materiaisorcamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,35 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MateriaisOrcamento.cs",
-              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\descendants\\MateriaisOrcamento.cs",
-              "RelativeDocumentMoniker": "models\\descendants\\MateriaisOrcamento.cs",
-              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\descendants\\MateriaisOrcamento.cs",
-              "RelativeToolTip": "models\\descendants\\MateriaisOrcamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T09:43:20.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Orcamento.cs",
-              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\descendants\\Orcamento.cs",
-              "RelativeDocumentMoniker": "models\\descendants\\Orcamento.cs",
-              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\descendants\\Orcamento.cs",
-              "RelativeToolTip": "models\\descendants\\Orcamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T09:39:19.84Z"
             },
             {
               "$type": "Document",
@@ -68,7 +36,7 @@
               "RelativeDocumentMoniker": "models\\Person.cs",
               "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\Person.cs",
               "RelativeToolTip": "models\\Person.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowFEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwGQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T08:52:40.42Z",
               "EditorCaption": ""
@@ -81,7 +49,7 @@
               "RelativeDocumentMoniker": "models\\descendants\\Cliente.cs",
               "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\descendants\\Cliente.cs",
               "RelativeToolTip": "models\\descendants\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T23:07:54.81Z",
               "EditorCaption": ""
@@ -94,7 +62,7 @@
               "RelativeDocumentMoniker": "models\\descendants\\Funcionario.cs",
               "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\models\\descendants\\Funcionario.cs",
               "RelativeToolTip": "models\\descendants\\Funcionario.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA3wDYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T22:55:38.555Z",
               "EditorCaption": ""

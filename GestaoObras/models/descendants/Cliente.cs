@@ -19,9 +19,9 @@ namespace GestaoObras.models.descendants
     }
 
     #region Constructor
+    
 
-
-    public Cliente(int ID, string Nome, string NIF, string morada, string codigoPostal, string Email, DateTime dataNascimento, ClientType TipoCliente)
+    public Cliente(int ID, string Nome, string NIF, string morada, string codigoPostal, string Email, DateTime dataNascimento, ClientType TipoCliente,)
            : base(Nome, Email, ID, NIF)
     {
         dataNascimento = dataNascimento;
