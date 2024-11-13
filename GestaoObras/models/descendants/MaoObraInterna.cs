@@ -11,7 +11,7 @@ namespace GestaoObras.models.descendants
         public string Departamento { get; set; }
 
         public MaoObraInterna(int idMaoObra, string nome, double custoHora, DateOnly dataInicio, string departamento)
-            : base(idMaoObra, nome, custoHora, dataInicio)  // Passa os parâmetros necessários para a classe base
+            : base(idMaoObra, nome, custoHora, dataInicio) 
         {
             Departamento = departamento;
         }

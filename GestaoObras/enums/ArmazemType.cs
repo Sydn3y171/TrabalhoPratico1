@@ -8,10 +8,9 @@ namespace GestaoObras.enums
 {
     public enum ArmazemType
     {
-        ArmazemGlobal,
         ArmazemEquipamentos,
         ArmazemFerramentas,
-        ArmazemMateriaisContrucao,
+        ArmazemMateriais,
 
     }
 }

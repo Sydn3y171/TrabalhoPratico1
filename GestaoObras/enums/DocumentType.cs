@@ -8,8 +8,9 @@ namespace GestaoObras.enums
 {
     public enum DocumentType
     {
-            GuiaTransporte,
+            AutodeObra,
             DocumentosDeObra,
+            RequesicaoDeViaturas,
    
     }
 }

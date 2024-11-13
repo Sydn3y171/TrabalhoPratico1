@@ -19,7 +19,7 @@ namespace GestaoObras.models.descendants
 
         public override string Descricao()
         {
-            return $"Mão de Obra Externa fornecida pela empresa: {Empresa}";
+            return $"Mão de Obra Externa contratada à empresa: {Empresa}";
         }
 
     }

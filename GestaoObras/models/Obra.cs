@@ -49,9 +49,9 @@ namespace GestaoObras.models
         #region Construtor 
         public Obra(int idObra, string nomeObra, string descricao, double orcamentoInicial)
         {
-            this.IdObra = idObra;
-            this.Nome = nomeObra;
-            this.orcamento = orcamentoInicial;
+            IdObra = idObra;
+            Nome = nomeObra;
+            orcamento = orcamentoInicial;
         }
 
         public string Estado

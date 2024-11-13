@@ -32,7 +32,7 @@ namespace GestaoObras.models.descendants
 
     #region Method
 
-    public override string ObterIdentificacao(string Nome, int NIF,string Email,ClientType TipoCliente,bool Ativo)
+    public abstract string ObterIdentificacao(string Nome, int NIF,string Email,ClientType TipoCliente,bool Ativo)
     {
         return $"Cliente: {Nome}, NIF: {NIF}, Email: {Email}, Tipo: {TipoCliente}, Ativo: {Ativo}";
     }
