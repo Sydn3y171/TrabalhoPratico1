@@ -19,7 +19,7 @@ namespace GestaoObras.models
         public string Localizacao { get; set; }
         public int Capacidade { get; private set; }
 
-        public ArmazemType ArmazemType { get; set; };
+        public ArmazemType ArmazemType { get; set; }
         
         #endregion
 

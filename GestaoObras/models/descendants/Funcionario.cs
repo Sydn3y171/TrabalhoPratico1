@@ -15,7 +15,7 @@ namespace GestaoObras.models.descendants
         #region Properties
         private decimal Salario { get; set; }
         public string Cargo { get; set; }
-        public DateOnly DataContratacao { get; set; }
+        public DateOnly dataContratacao { get; set; }
 
         #endregion
 
@@ -30,12 +30,12 @@ namespace GestaoObras.models.descendants
         /// <param name="Email"></param>
 
         #region Construtor
-        public Funcionario(int ID, string Nome, decimal salario, string cargo, DateTime DataContratacao, string Email)
+        public Funcionario(int ID, int NIF, string Nome, decimal salario, string cargo, DateTime dataContratacao, string Email)
             : base(Nome, Email, ID, NIF)
         {
             Salario = salario;
             Cargo = cargo;
-            DataContratacao = DataContratacao;
+            dataContratacao = dataContratacao;
         }
         #endregion
 
@@ -54,13 +54,13 @@ namespace GestaoObras.models.descendants
        
         public int CalcularTempoServico()
         {
-            return (DateTime.Now.Year - DataContratacao.Year);
+            return (DateTime.Now.Year - dataContratacao.Year);
         }
 
         
         public void MostrarDetalhes()
         {
-            Console.WriteLine($"Funcionário: {Nome}, ID: {ID}, Salário: {Salario:C}, Cargo: {Cargo}, Data de Contratação: {DataContratacao.ToShortDateString()}");
+            Console.WriteLine($"Funcionário: {Nome}, ID: {ID}, Salário: {Salario:C}, Cargo: {Cargo}, Data de Contratação: {dataContratacao.ToShortDateString()}");
         }
 
         

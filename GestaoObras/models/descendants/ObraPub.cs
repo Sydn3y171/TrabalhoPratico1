@@ -26,21 +26,19 @@ namespace GestaoObras.models.descendants
             
             double custoTotal = Orcamento;
           
-            double taxaAuditoria = 0.05;
-            custoTotal += Orcamento * taxaAuditoria;
+            double taxaPublica = 0.05;
+            custoTotal += Orcamento * taxaPublica;
 
             return custoTotal;
         }
 
         #region Metodos
-        // Método adicional específico para ObraPub (por exemplo, para atualizar o órgão responsável)
         public void AtualizarOrgaoResponsavel(string novoOrgao)
         {
             EntidadeResponsavel = novoOrgao;
             Console.WriteLine($"Entidade responsável atualizado para: {EntidadeResponsavel}");
         }
 
-        // Sobrescreve o método ToString para fornecer uma representação completa da obra pública
         public override string ToString()
         {
             return base.ToString() + $"\nEntidade Responsável: {EntidadeResponsavel}";

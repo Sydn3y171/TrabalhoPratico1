@@ -85,7 +85,7 @@ namespace GestaoObras.models
         {
             return CustoHora * HorasTrabalhadas;
         }
-        // Método abstrato que será implementado nas subclasses 
+        
         public virtual string Descricao()
         {
             return $"Mão de Obra: {IdMaoObra}, Custo por Hora: {CustoHora}";
