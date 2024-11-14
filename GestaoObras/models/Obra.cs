@@ -18,6 +18,10 @@ namespace GestaoObras.models
         private double orcamento { get; set; }
 
         private DateOnly dataFim;
+        private string nomeObra;
+        private double orcamentoInicial;
+        private string endereco;
+        private string orgaoResponsavel;
 
         private string estado { get; set; }
 
