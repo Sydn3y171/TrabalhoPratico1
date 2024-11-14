@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestaoObras.enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.AccessControl;
@@ -99,7 +100,9 @@ namespace GestaoObras.models
         #region Method
 
         public abstract string ObterIdentificacao();
+        public abstract string ObterIdentificacao(string Nome, int NIF, string Email, ClientType TipoCliente, bool Ativo);
         public abstract void MostrarDetalhesCliente();
+        public abstract void MostrarDetalhesCliente(string Nome, int ID, int NIF, string Email, DateTime DataNascimento, ClientType TipoCliente, bool Ativo, DateTime DataRegisto);
 
         // Método privado para validar o NIF 
         private bool ValidarNIF(string nif)
