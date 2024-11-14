@@ -1,6 +1,8 @@
 ﻿using EstaleiroLibrary;
 
 using GestaoObras.enums;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Text.RegularExpressions;
 
 namespace EstaleiroLibrary
 {
@@ -62,5 +64,10 @@ namespace EstaleiroLibrary
             this.EmUso = EmUso;
         }
         #endregion
+
+        public string ObterDescricao()
+        {
+            return $"{IdVeiculo} ({Modelo}): Estado: {EmUso}, Horas de uso: {HorasDeUso}";
+        }
     }
 }
