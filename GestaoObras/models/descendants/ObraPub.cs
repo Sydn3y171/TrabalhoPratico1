@@ -12,10 +12,8 @@ namespace GestaoObras.models.descendants
         public string EntidadeResponsavel { get; set; }
 
         #region Constructors
-        public ObraPub(int idObra, string nomeObra, string descricao, DateOnly dataInicio,
-                       DateOnly dataPrevistaTermino, double orcamentoInicial, string endereco,
-                       string estado, string orgaoResponsavel)
-            : base(idObra, nomeObra, descricao,orcamentoInicial, dataInicio, dataPrevistaTermino, endereco, estado, orgaoResponsavel)
+        public ObraPub(int idObra, string nomeObra, string descricao, double orcamentoInicial )
+            : base(idObra, nomeObra, descricao,orcamentoInicial)
         {
             this.EntidadeResponsavel = EntidadeResponsavel;
         }
