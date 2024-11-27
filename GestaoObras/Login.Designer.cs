@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             label1 = new Label();
             UsernameLabel = new Label();
             PasswordLabel = new Label();
@@ -130,6 +131,7 @@
             Controls.Add(PasswordLabel);
             Controls.Add(UsernameLabel);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Login";
             Text = "Login Constructly";
             ResumeLayout(false);

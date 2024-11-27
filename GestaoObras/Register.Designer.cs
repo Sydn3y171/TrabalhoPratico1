@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             ReguserLabel = new Label();
             RegpassLabel = new Label();
             textBox1 = new TextBox();
@@ -116,6 +117,7 @@
             Controls.Add(textBox1);
             Controls.Add(RegpassLabel);
             Controls.Add(ReguserLabel);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Register";
             Text = "Register";
             ResumeLayout(false);
