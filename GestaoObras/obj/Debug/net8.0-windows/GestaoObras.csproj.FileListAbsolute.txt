@@ -17,3 +17,16 @@ C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-w
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.pdb
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.genruntimeconfig.cache
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\ref\GestaoObras.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\GestaoObras.dll.config
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\AutoClosingMessageBox.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\Dapper.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\NLog.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.csproj.AssemblyReference.cache
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoOb.9D7160CB.Up2Date

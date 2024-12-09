@@ -29,13 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            monthCalendar1 = new MonthCalendar();
             SuspendLayout();
+            // 
+            // monthCalendar1
+            // 
+            monthCalendar1.Location = new Point(885, 18);
+            monthCalendar1.Name = "monthCalendar1";
+            monthCalendar1.TabIndex = 0;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1172, 641);
+            Controls.Add(monthCalendar1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Form1";
@@ -43,5 +51,7 @@
         }
 
         #endregion
+
+        private MonthCalendar monthCalendar1;
     }
 }

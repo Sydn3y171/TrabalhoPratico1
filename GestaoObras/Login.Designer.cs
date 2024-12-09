@@ -88,7 +88,7 @@
             // Clearbutton
             // 
             Clearbutton.Font = new Font("Century Gothic", 9F);
-            Clearbutton.Location = new Point(231, 280);
+            Clearbutton.Location = new Point(363, 276);
             Clearbutton.Name = "Clearbutton";
             Clearbutton.Size = new Size(94, 29);
             Clearbutton.TabIndex = 5;
@@ -99,7 +99,7 @@
             // Loginbutton
             // 
             Loginbutton.Font = new Font("Century Gothic", 9F);
-            Loginbutton.Location = new Point(363, 280);
+            Loginbutton.Location = new Point(231, 276);
             Loginbutton.Name = "Loginbutton";
             Loginbutton.Size = new Size(94, 29);
             Loginbutton.TabIndex = 6;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstaleiroLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6343ff0c7c8fcafd089bd47db53653b22eff8de8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba38ed6e6984056c344b4eb6fafcdcdccbb4f613")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstaleiroLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstaleiroLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

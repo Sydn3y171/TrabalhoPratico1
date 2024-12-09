@@ -49,7 +49,7 @@ namespace GestaoObras.models
         /// Class Methods
         /// </summary>
 
-        #region Public methods
+        #region Methods
         public void MostraDetalhes()
         {
             Console.WriteLine($"ID: {IdArmazem},Armazém: {NomeArmazem}, Localização: {Localizacao}, Tipo: {ArmazemType}");
