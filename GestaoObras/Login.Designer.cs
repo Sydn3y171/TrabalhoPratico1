@@ -82,6 +82,7 @@
             PasswordTextBox.Font = new Font("Century Gothic", 10.8F);
             PasswordTextBox.Location = new Point(231, 220);
             PasswordTextBox.Name = "PasswordTextBox";
+            PasswordTextBox.PasswordChar = '*';
             PasswordTextBox.Size = new Size(226, 30);
             PasswordTextBox.TabIndex = 4;
             // 
@@ -133,6 +134,7 @@
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login Constructly";
             ResumeLayout(false);
             PerformLayout();

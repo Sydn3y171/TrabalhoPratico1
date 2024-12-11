@@ -6,5 +6,14 @@ namespace GestaoObras
         {
             InitializeComponent();
         }
+
+
+        #region toolstrip
+        private void ClientesButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        #endregion
     }
 }

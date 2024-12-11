@@ -30,3 +30,4 @@ C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-w
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.csproj.AssemblyReference.cache
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoOb.9D7160CB.Up2Date
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.Properties.Resources.resources
