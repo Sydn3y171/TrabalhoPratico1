@@ -127,15 +127,15 @@ namespace GestaoObras
 
         #endregion
 
-        private void Password_KeyDown(object sender, KeyEventArgs e)
-        {
-            // Verifica se a tecla pressionada é a tecla Enter
-            if (e.KeyCode == Keys.Enter)
-            {
-                // Simula o clique do botão Login
-                Loginbutton.PerformClick();
-            }
-        }
+        //private void Password_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    // Verifica se a tecla pressionada é a tecla Enter
+        //    if (e.KeyCode == Keys.Enter)
+        //    {
+        //        // Simula o clique do botão Login
+        //        Loginbutton.PerformClick();
+        //    }
+        //}
 
         private void Registerbutton_Click(object sender, EventArgs e)
         {
