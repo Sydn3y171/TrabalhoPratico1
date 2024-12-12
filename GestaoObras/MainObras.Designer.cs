@@ -49,6 +49,7 @@
             monthCalendar1.Location = new Point(885, 36);
             monthCalendar1.Name = "monthCalendar1";
             monthCalendar1.TabIndex = 0;
+            monthCalendar1.DateChanged += monthCalendar1_DateChanged;
             // 
             // toolStrip1
             // 
@@ -57,7 +58,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { ClientesButton, DocumentosButton, ObrasButton, Armazem, FuncionariosButton });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(1172, 27);
+            toolStrip1.Size = new Size(1175, 27);
             toolStrip1.TabIndex = 5;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -98,6 +99,7 @@
             Armazem.Name = "Armazem";
             Armazem.Size = new Size(29, 24);
             Armazem.Text = "Armazem";
+            Armazem.Click += Armazem_Click;
             // 
             // FuncionariosButton
             // 
@@ -132,9 +134,11 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
-            ClientSize = new Size(1172, 641);
-            Controls.Add(panel1);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1175, 657);
             Controls.Add(toolStrip1);
+            Controls.Add(panel1);
             Controls.Add(monthCalendar1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";

@@ -1,0 +1,12 @@
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\bin\Debug\net8.0\EstaleiroLibrary.deps.json
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\bin\Debug\net8.0\EstaleiroLibrary.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\bin\Debug\net8.0\EstaleiroLibrary.pdb
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.AssemblyInfoInputs.cache
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.AssemblyInfo.cs
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.sourcelink.json
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\refint\EstaleiroLibrary.dll
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\EstaleiroLibrary.pdb
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\EstaleiroLibrary\obj\Debug\net8.0\ref\EstaleiroLibrary.dll

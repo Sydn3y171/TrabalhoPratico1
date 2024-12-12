@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\mainobras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:mainobras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\armazemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:armazemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\armazemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:armazemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\mainobras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:mainobras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\obrasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:obrasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:clienteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|c:\\users\\mafalda\\desktop\\uni\\poo\\trabalhopratico1\\gestaoobras\\mainobras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FCB3D55-2F3D-4087-A77A-974C255E7DF8}|GestaoObras.csproj|solutionrelative:mainobras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,57 +42,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:02:58.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\Login.cs [Projeto]",
-              "RelativeToolTip": "Login.cs [Projeto]",
+              "Title": "ArmazemForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ArmazemForm.cs",
+              "RelativeDocumentMoniker": "ArmazemForm.cs",
+              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ArmazemForm.cs",
+              "RelativeToolTip": "ArmazemForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:02:56.302Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-12-12T19:02:54.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainObras.cs",
-              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\MainObras.cs",
-              "RelativeDocumentMoniker": "MainObras.cs",
-              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\MainObras.cs",
-              "RelativeToolTip": "MainObras.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAAqAAAAAAAAAA==",
+              "Title": "ArmazemForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ArmazemForm.cs",
+              "RelativeDocumentMoniker": "ArmazemForm.cs",
+              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ArmazemForm.cs [Projeto]",
+              "RelativeToolTip": "ArmazemForm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T22:02:48.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ObrasForm.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ObrasForm.cs",
-              "RelativeDocumentMoniker": "ObrasForm.cs",
-              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ObrasForm.cs [Projeto]",
-              "RelativeToolTip": "ObrasForm.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T19:00:48.784Z",
+              "WhenOpened": "2024-12-12T19:01:37.621Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "ClienteForm.cs",
+              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ClienteForm.cs",
+              "RelativeDocumentMoniker": "ClienteForm.cs",
+              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ClienteForm.cs",
+              "RelativeToolTip": "ClienteForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:21:36.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClienteForm.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\ClienteForm.cs",
               "RelativeDocumentMoniker": "ClienteForm.cs",
@@ -103,7 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "MainObras.cs",
+              "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\MainObras.cs",
+              "RelativeDocumentMoniker": "MainObras.cs",
+              "ToolTip": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\MainObras.cs",
+              "RelativeToolTip": "MainObras.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T22:02:48.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainObras.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Mafalda\\Desktop\\Uni\\POO\\TrabalhoPratico1\\GestaoObras\\MainObras.cs",
               "RelativeDocumentMoniker": "MainObras.cs",

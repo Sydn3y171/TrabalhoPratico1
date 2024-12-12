@@ -34,3 +34,4 @@ C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-w
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.ClienteForm.resources
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.DocumentosForm.resources
 C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.ObrasForm.resources
+C:\Users\Mafalda\Desktop\Uni\POO\TrabalhoPratico1\GestaoObras\obj\Debug\net8.0-windows\GestaoObras.ArmazemForm.resources
